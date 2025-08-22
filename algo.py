@@ -8,7 +8,7 @@ Este script realiza varias operaciones de ejemplo en Python:
 """for i in range(10, 56, 1):
     if i % 3 != 0 and i % 2 == 0 and i != 16:
         print(
-            i, end="--"
+        i, end="--"
         )  # Imprime el número seguido de '--' si cumple las condiciones"""
 
 """

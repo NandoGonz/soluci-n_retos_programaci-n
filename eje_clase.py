@@ -1,26 +1,39 @@
 class Vehiculo:
+    """Clase padre que dara los atritbutos a sus hijos"""
+
     def __init__(self, nombre, modelo, ano):
-        self.nombre = nombre 
+        self.nombre = nombre
         self.modelo = modelo
         self.ano = ano
-    
+
     def vehiculo_encender(self):
-        print("El vehivulo esta encendido")
-        
+        """Metodo para encender el vehiculo"""
+        print(f"El vehivulo {self.modelo} esta encendido ")
+
     def vehiculo_apagar(self):
-        print("El vehiculo ha sido apagado")
+        """Metodo para apagar el vehiculo"""
+        print(f"El vehiculo {self.modelo} ha sido apagado")
+
 
 class Carro(Vehiculo):
+    """Clase hija carro"""
+
     def __init__(self, nombre, modelo, ano, capacidad):
         super().__init__(nombre, modelo, ano)
         self.capacidad = capacidad
-        print(f"El carro {self.nombre}, modelo {self.modelo}, ano {self.ano}, tiene la capacidad de {self.capacidad} personas")
+        print(
+            f"El carro {self.nombre}, modelo {self.modelo}, ano {self.ano}, tiene la capacidad de {self.capacidad} personas"
+        )
 
 
 class Moto(Vehiculo):
+    """Clase hija moto"""
+
     def __init__(self, nombre, modelo, ano):
         super().__init__(nombre, modelo, ano)
-        print(f"La moto {self.nombre}, modelo {self.modelo}, ano {self.ano}")
+        print(f"La moto {self.nombre}, modelo {self.modelo}, año {self.ano}")
+
+
 # instacio mi clase
 
 moto_1 = Moto("Bajaj", "Platino", 2008)

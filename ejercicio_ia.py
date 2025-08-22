@@ -2,7 +2,7 @@
 
 Atributos: nombre, edad.
 
-Método que muestre un mensaje con el nombre y la edad."""
+Método que muestre un mensaje con el nombre y la edad. """
 
 
 class Persona:
@@ -11,6 +11,7 @@ class Persona:
         self.edad = edad
 
     def presentarse(self):
+        """Método para presentar la información en la instancia de la clase """
         if self.edad == 1:
             print(f"Hola me llamo {self.nombre} y tengo {self.edad} año")
         else:
@@ -36,7 +37,7 @@ calcular_perimetro() → devuelve el perímetro del círculo.
 
 Área = π * radio²
 
-Perímetro = 2 * π * radio"""
+Perímetro = 2 * π * radio. """
 
 import math
 
@@ -78,7 +79,7 @@ mostrar_saldo() → muestra el saldo actual.
 c1 = CuentaBancaria("Luis", 1000)
 c1.depositar(500)
 c1.retirar(200)
-c1.mostrar_saldo()   # Saldo actual: 1300"""
+c1.mostrar_saldo()   # Saldo actual: 1300. """
 
 
 class CuentaBancaria:
@@ -163,7 +164,7 @@ Luego crea otra clase llamada Coche que herede de Vehiculo y tenga un atributo a
 
 c1 = Coche("Toyota", "Corolla", 2020, 4)
 c1.mostrar_info()
-# Marca: Toyota, Modelo: Corolla, Año: 2020, Puertas: 4"""
+# Marca: Toyota, Modelo: Corolla, Año: 2020, Puertas: 4 """
 
 
 class Vehiculo:
