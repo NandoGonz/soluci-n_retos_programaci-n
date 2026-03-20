@@ -43,12 +43,12 @@ print(pilas)
 
 
 # Primero en ser agregado, primero en ser eliminado (colas ->queues )
-pilas = []
+pilas_queues = []
 """las colas (queues) siguen el principio FIFO (First In, First Out)"""
-pilas.append("Nando")
-pilas.append("Adrian")
-pilas.append("Kristina")
-pilas.append("Emiro")
+pilas_queues.append("Nando")
+pilas_queues.append("Adrian")
+pilas_queues.append("Kristina")
+pilas_queues.append("Emiro")
 
 # De forma manual
 """queue = pilas[0]
@@ -60,16 +60,16 @@ del pilas[0]
 
 print(queue)"""
 
-print(pilas)
+print(pilas_queues)
 
-print(pilas.pop(0))
-print(pilas)
-print(pilas.pop(0))
-print(pilas)
-print(pilas.pop(0))
-print(pilas)
-print(pilas.pop(0))
-print(pilas)
+print(pilas_queues.pop(0))
+print(pilas_queues)
+print(pilas_queues.pop(0))
+print(pilas_queues)
+print(pilas_queues.pop(0))
+print(pilas_queues)
+print(pilas_queues.pop(0))
+print(pilas_queues)
 
 
 def navegador():
