@@ -1,0 +1,30 @@
+2026-05-06 23:11:42,878 - DEBUG - Mensaje de depuración
+2026-05-06 23:11:42,878 - INFO - Infomación general
+2026-05-06 23:11:42,878 - WARNING - Advertencia
+2026-05-06 23:11:42,878 - ERROR - Erro detectado
+2026-05-06 23:11:42,878 - CRITICAL - Error crítico
+2026-05-06 23:11:42,878 - INFO - Lista de tareas registradas
+2026-05-06 23:11:42,879 - INFO - Creando una nueva tarea
+2026-05-06 23:11:42,879 - INFO - Nueva tarea creada
+2026-05-06 23:11:42,879 - INFO - Creando una nueva tarea
+2026-05-06 23:11:42,879 - INFO - Nueva tarea creada
+2026-05-06 23:11:42,879 - INFO - Creando una nueva tarea
+2026-05-06 23:11:42,879 - INFO - Nueva tarea creada
+2026-05-06 23:11:42,879 - WARNING - Vas a eliminar una tarea
+2026-05-06 23:11:42,879 - DEBUG - Se ha eliminado la tarea %s Control
+2026-05-06 23:11:42,879 - INFO - Lista de tareas registradas
+2026-05-06 23:13:02,749 - DEBUG - Mensaje de depuración
+2026-05-06 23:13:02,750 - INFO - Infomación general
+2026-05-06 23:13:02,750 - WARNING - Advertencia
+2026-05-06 23:13:02,750 - ERROR - Erro detectado
+2026-05-06 23:13:02,750 - CRITICAL - Error crítico
+2026-05-06 23:13:02,750 - INFO - Lista de tareas registradas
+2026-05-06 23:13:02,750 - INFO - Creando una nueva tarea
+2026-05-06 23:13:02,750 - INFO - Nueva tarea creada
+2026-05-06 23:13:02,750 - INFO - Creando una nueva tarea
+2026-05-06 23:13:02,750 - INFO - Nueva tarea creada
+2026-05-06 23:13:02,750 - INFO - Creando una nueva tarea
+2026-05-06 23:13:02,750 - INFO - Nueva tarea creada
+2026-05-06 23:13:02,750 - WARNING - Vas a eliminar una tarea
+2026-05-06 23:13:02,750 - DEBUG - Se ha eliminado la tarea %s Control
+2026-05-06 23:13:02,750 - INFO - Lista de tareas registradas

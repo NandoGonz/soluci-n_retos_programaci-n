@@ -95,10 +95,10 @@ print("#" * 60)
 
 
 def contar_fun(fun):
-    def contador_fun():
+    def contador_fun(*args, **kwargs):
         contador_fun.call += 1
         print(f"La función {fun.__name__} fue llamada {contador_fun.call} de veces")
-        return fun
+        return fun(*args, **kwargs)
 
     contador_fun.call = 0
     return contador_fun
